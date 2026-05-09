@@ -1,0 +1,22 @@
+﻿<Window x:Class="Konditer.Orders"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Konditer"
+        mc:Ignorable="d"
+        Title="Orders" Height="450" Width="401" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Мои заказы" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <ListView x:Name="listView" Margin="10,61,10,10">
+            <!--<StackPanel Height="100" Width="330" Background="#FFEAEAEA">
+                <Grid>
+                    <Label Content="Заказ #1" Margin="10,3,165,-3" FontSize="22" FontWeight="Bold"/>
+                    <Label Content="817 р." Margin="10,47,165,-47" FontSize="18" FontWeight="Bold"/>
+                    <Label Content="27.05.2024" Margin="227,7,-49,-9" FontSize="18" FontWeight="Bold"/>
+                </Grid>
+            </StackPanel>-->
+        </ListView>
+        <Button Content="Вернуться в меню" HorizontalAlignment="Left" Margin="269,27,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+    </Grid>
+</Window>
